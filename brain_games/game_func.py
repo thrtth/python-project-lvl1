@@ -34,3 +34,12 @@ def wrong_answer(answer, correct_answer):
 
 def try_again(name):
     print(f"Let's try again, {name}!")
+
+
+def a_progression(a, d):
+    res = []
+    for i in range(10):
+        res.append(a + i * d)
+    return res
+
+
