@@ -43,3 +43,10 @@ def a_progression(a, d):
     return res
 
 
+def is_prime(num):
+    if num == 1:
+        return False
+    x = 2
+    while num % x != 0:
+        x += 1
+    return x == num
