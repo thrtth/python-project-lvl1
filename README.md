@@ -6,3 +6,4 @@
 Asciinema records:
 brain-even https://asciinema.org/a/2BVzB6FKA9eeaBB7YrfUJj41u
 brain-calc https://asciinema.org/a/aw3VJiIhQitDkcAyrcHXBZL1J
+brain-gcd https://asciinema.org/a/olztJ80a9ewRF6Bj67oW6MR24
