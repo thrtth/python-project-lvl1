@@ -5,6 +5,7 @@ from brain_games.game_func import check_answer
 from brain_games.game_func import ask_question
 from brain_games.game_func import correct
 from brain_games.game_func import wrong_answer
+from brain_games.game_func import try_again
 
 
 def main():
@@ -22,6 +23,7 @@ def main():
             correct()
         else:
             wrong_answer(answer, correct_answer)
+            try_again(name)
             exit()
         count -= 1
 
