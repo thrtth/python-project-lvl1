@@ -29,7 +29,8 @@ def correct():
 
 
 def wrong_answer(answer, correct_answer):
-    print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'")
+    print(f"'{answer}' is wrong answer ;(. "
+          f"Correct answer was '{correct_answer}'")
 
 
 def try_again(name):
