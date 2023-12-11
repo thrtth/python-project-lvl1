@@ -12,7 +12,7 @@ def game_question_and_answer():
 
 
 def is_prime(num):
-    if num == 1:
+    if num < 2:
         return False
     x = 2
     while num % x != 0:
