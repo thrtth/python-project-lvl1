@@ -6,11 +6,12 @@ AMOUNT_OF_ELEMENTS = 10
 
 
 def game_question_and_answer():
-    num1 = randint(1, 100)
-    num2 = randint(1, 10)
-    progression = list(range(num1, (num1 + num2 * AMOUNT_OF_ELEMENTS), num2))
+    start = randint(1, 100)
+    step = randint(1, 10)
+    end = start + step * AMOUNT_OF_ELEMENTS
+    progression = list(range(start, end, step))
     index = randint(0, 9)
     correct_answer = progression[index]
     progression[index] = '..'
-    question = f'{" ".join([str(x) for x in progression])}'
+    question = f'{" ".join(map(str, progression))}'
     return question, str(correct_answer)
