@@ -13,5 +13,5 @@ def game_question_and_answer():
     index = randint(0, 9)
     correct_answer = progression[index]
     progression[index] = '..'
-    question = f'{" ".join(map(str, progression))}'
+    question = " ".join(map(str, progression))
     return question, str(correct_answer)
